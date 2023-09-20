@@ -5,8 +5,8 @@ inp = sys.argv[1]
 out = sys.argv[2]
 size = sys.argv[3]
 
-width = size
-height = size
+width = float(size)
+height = width
 output_png_path = out
 input_svg_path = inp
 
